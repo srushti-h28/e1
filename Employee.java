@@ -3,7 +3,7 @@ public class Employee {
     int id;
     double salary;
 
-    public Employee(String name, int id, double salary,String address){
+    public Employee(String name, int id, double salary){
         this.name = name;
         this.id = id;
         this.salary = salary;
@@ -15,7 +15,7 @@ public class Employee {
     }
 
     public static void main(String[] args){
-        Employee emp = new Employee("XYZ",101,50000.0,);
-        emp.displayInfo();
+        Employee emp1 = new Employee("XYZ",101,50000.0);
+        emp1.displayInfo();
     }
 }
